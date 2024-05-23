@@ -1,7 +1,7 @@
 ul {
     list-style: none;
     display: flex;
-    background-color: #111111;
+    background-color: #B452CD;
 }
 
 li a {
@@ -16,7 +16,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #DDDDDD;
+    background-color: #FFBBFF;
     color: white;
     padding: 6px 12px;
 
@@ -62,7 +62,7 @@ button {
 }
 
 .footer {
-    background-color: #99CCFF;
+    background-color: #9400D3;
     padding-top: 3px;
     padding-bottom: 3px;
     margin-top: 2px;

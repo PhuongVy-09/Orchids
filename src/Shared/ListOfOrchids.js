@@ -10,7 +10,7 @@ export const Orchids = [
         category: 'Cattleya'
     },
     {
-        id: 32,
+        id: 2,
         name: 'Cattleya Forbesii',
         rating: '5',
         isSpecial: 'true',
@@ -74,7 +74,7 @@ export const Orchids = [
         name: 'Cattleya Iueddemanniana',
         rating: '5',
         isSpecial: 'true',
-        img: 'assets/img/Cattleya Iueddemanniana.jpg',
+        img: 'assets/img/Cattleya Iueddemanniana1.jpg',
         color: 'pink',
         origin: 'Brazil',
         category: 'Cattleya'
@@ -114,7 +114,7 @@ export const Orchids = [
         name: 'Cattleya Violacea',
         rating: '5',
         isSpecial: 'true',
-        img: 'assets/imgCattleya Violacea.jpg',
+        img: 'assets/img/Cattleya Violacea.jpg',
         color: 'pink',
         origin: 'Brazil',
         category: 'Cattleya'
@@ -149,4 +149,15 @@ export const Orchids = [
         origin: 'Brazil',
         category: 'Cattleya'
     },
+    {
+        id: 16,
+        name: 'Cattleya Warneri',
+        rating: '5',
+        isSpecial: 'true',
+        img: 'assets/img/Cattleya Warneri.jpg',
+        color: 'pink',
+        origin: 'Brazil',
+        category: 'Cattleya'
+    },
+
 ]
