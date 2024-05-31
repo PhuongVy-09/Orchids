@@ -1,15 +1,20 @@
 
 import './App.css';
 import Navbar from './Components/Navbar';
-import Footer from './Components/Footer';
-import Main from './Components/Main';
+
+import { BrowserRouter as Route, Routes } from 'react-router-dom';
+
+import OrchidDetail from './Components/Detail';
+import Detail from './Components/Detail';
 
 function App() {
   return (
     <div className="App">
      <Navbar/>
-     <Main/>
-     <Footer/>
+     <Routes>
+        <Route path="/" element={<OrchidDetail/>}></Route>
+        <Route path="/detail/:id" element={<Detail/>}></Route>
+     </Routes>
     </div>
   );
 }

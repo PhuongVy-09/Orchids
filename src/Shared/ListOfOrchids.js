@@ -6,7 +6,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Cattleya Dowiana.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
     {
@@ -16,7 +16,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Cattleya Forbesii.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
     {
@@ -26,7 +26,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Cattleya Gaskelliana.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
     {
@@ -36,7 +36,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Cattleya Intermedia.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
     {
@@ -46,7 +46,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Cattleya Ioddigesii.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
     {
@@ -56,7 +56,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Cattleya Labiata.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
     {
@@ -66,7 +66,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Cattleya Lealia Purpurata.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
     {
@@ -76,7 +76,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Cattleya Iueddemanniana1.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
     {
@@ -86,7 +86,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Cattleya Maxima.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
     {
@@ -96,7 +96,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Cattleya Mossiae.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
     {
@@ -106,7 +106,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Cattleya Orchids.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
     {
@@ -116,7 +116,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Cattleya Violacea.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
     {
@@ -126,7 +126,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Cattleya Walkeriana.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
     {
@@ -136,7 +136,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Cattleya Warscewiczii.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
     {
@@ -146,7 +146,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Christmas Orichid.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
     {
@@ -156,7 +156,7 @@ export const Orchids = [
         isSpecial: 'true',
         img: 'assets/img/Cattleya Warneri.jpg',
         color: 'pink',
-        origin: 'Brazil',
+        origin: 'Taiwan',
         category: 'Cattleya'
     },
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Orchids } from '../Shared/ListOfOrchids'
-import OrchidsPresentation from './OrchidsPresentation';
+import OrchidsComponent from './Orchids';
 export class Main extends Component {
   constructor() {
     super();
@@ -9,8 +9,7 @@ export class Main extends Component {
     };
 }
   render() {
-    return <OrchidsPresentation orchids={this.state.orichids}/>
-
+    return <OrchidsComponent orichids={this.state.orichids}/>
   }
 }
 

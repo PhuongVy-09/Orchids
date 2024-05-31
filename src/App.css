@@ -1,32 +1,32 @@
 ul {
-    list-style: none;
-    display: flex;
-    background-color: #B452CD;
+  list-style: none;
+  display: flex;
+  background-color: #B452CD;
 }
 
+
 li a {
-    font-style: inherit;
-    text-decoration: none;
-    display: flex;
-    margin: 10px;
-    color: #fff;
-    padding: 6px 12px;
-    margin-left: 10px;
+  font-style: inherit;
+  text-decoration: none;
+  display: flex;
+  margin: 10px;
+  color: #fff;
+  padding: 6px 12px;
+  margin-left: 10px;
 
 }
 
 li a:hover {
-    background-color: #FFBBFF;
-    color: white;
-    padding: 6px 12px;
+  background-color: #FFBBFF;
+  color: white;
+  padding: 6px 12px;
 
 }
-
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
+    gap: 15px;
     justify-content: space-between;
     width: 100%;
 }
@@ -45,13 +45,14 @@ li a:hover {
 }
 
 img {
-    height: 20rem;
+    height: 18rem;
     width: 100%;
 }
 
 .card .title{
     color: black;
-    font-weight: bold;
+    font-size: 15px;
+    font-family: monospace;
 
 }
 
@@ -128,8 +129,57 @@ button {
   }
 
 
+  
+  .product-card{
+      background-color: #f0efef;
+      display: flex;
+      margin-top: 30px;
+      & img{
+          padding-left: 23%;
+          object-fit: cover;
+          width: 1000px;
+      }
+  }
+  
+  .badge{
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      background-color: red;
+      height: 40px;
+      width: 200px;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      margin-top: 2%;
+  }
+  
+  .product-details{
+      margin:40px;
+      font-size: 25px;
+      padding-left: 20px;
+  }
 
 
+
+.star_wrap {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+}
+input {
+  appearance: none;
+}
+input::before {
+  content: "\2605";
+  color: #ccc;
+  font-size: 2rem;
+  cursor: pointer;
+}
+input:checked::before,
+input:checked ~ input::before {
+  color: #ffb800;
+}
 
 
 

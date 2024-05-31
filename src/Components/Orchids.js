@@ -1,33 +1,48 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useState } from 'react';
 import { Orchids } from '../Shared/ListOfOrchids';
-
+import { Link } from 'react-router-dom'
 export default function OrchidsComponent() {
-    const [orchid,setOrchid] = useState(null)
+    const [orchid,setOrchid] = useState([])
     return (
-        <div className='container'>
-            {Orchids.map((orchid, index) => (
-                <div className='column' key={index}>
-                    <div className='card'>
-                        <img src={orchid.img} alt={orchid.name} />
-                        <h3>{orchid.name}</h3>
-                        <p className='title'>{orchid.origin}</p>
-                        <p><button onClick={()=>{setOrchid(orchid)}}><a href='#popup1' id='openPopUp'>Detail</a></button></p>
-                    </div>
-                </div>
-            ))}
-            <div id='popup1' className='overlay'>
-                <div className='popup'>
-                    <img src={orchid.img} alt=''/>
-                    <h2>{orchid.name}</h2>
-                    <button className='close' href='#'>&times;</button>
-                    <div className='content'>
-                        {orchid.category}
-                    </div>
-                </div>
+        // <div className='container'>
+        //     {Orchids.map((orchid, index) => (
+        //         <div className='column' key={index}>
+        //             <div className='card'>
+        //                 <img src={orchid.img} alt={orchid.name} />
+        //                 <h3>{orchid.name}</h3>
+        //                 <p className='title'>{orchid.origin}</p>
+        //                 <button onClick={()=>{setOrchid(orchid)}}><a href='#popup1' id='openPopUp'>Detail</a></button>
+        //             </div>
+        //         </div>
+        //     ))}
+        //     <div id='popup1' className='overlay'>
+        //         <div className='popup'>
+        //             <img src={orchid.img} alt=''/>
+        //             <h2>{orchid.name}</h2>
+        //             <button className='close' href='#'>&times;</button>
+        //             <div className='content'>
+        //                 {orchid.category}
+        //             </div>
+        //         </div>
+        //     </div>
+        // </div>
+        <div className='orchids'>
+            <div className='orchids__img'>
+                <img src={orchid.img} alt={orchid.name}/>
+
+            </div>
+            <h4 className='orchids__name'>{orchid.name}</h4>
+            <h4 className='orchids__origin'>{orchid.origin}</h4>
+            <h4 className='orchids__category'>{orchid.cat}</h4>
+            <div className='orchids__detail'>
+                <Link className='orchids__link' to={`/detail/${orchid.id}`}>Detail</Link>
             </div>
         </div>
     );
 }
+
+
 
 
 
